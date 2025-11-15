@@ -25,6 +25,7 @@ implements. (Refer to BMC document)
 ## Individual Contributions Sample
 ### Thomas
 - Created Github Repository
+- Worked on Listing.html
 ### Ram
 - 
 ### Steven
