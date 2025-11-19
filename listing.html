@@ -5,9 +5,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Job Listing</title>
+
+    <style>
+        .logo_rectangle {
+        height: 100px;
+        width: 200px;
+        background-color: #9FB86C;
+        border-radius: 15px;
+        position: absolute;
+        top: 10px;
+        left: 25px;
+        }
+        .page_title {
+        position: fixed;
+        top: 10px;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+        }
+        .premium_rectangle {
+        height: 50px;
+        width: 150px;
+        background-color: #EE5E5E;
+        border-radius: 15px;
+        position: absolute;
+        right: 125px;
+        top: 35px;
+        }
+        .profile_circle {
+        height: 80px;
+        width: 80px;
+        min-width: 80px;
+        background-color: #BFEE5E;
+        border-radius: 50%;
+        position: absolute;
+        right: 25px;
+        top: 25px;
+        }
+        .background_form_rectangle {
+        display: flex;
+        min-height: 300px;
+        min-width: 300px;
+        height: 500px;
+        width: 900px;
+        background-color: #9FB86C;
+        border-radius: 15px;
+        position: fixed;
+        top: 200px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        }
+        .ad_left_rectangle {
+        display: flex;
+        min-height: 300px;
+        min-width: 100px;
+        height: 500px;
+        width: 200px;
+        background-color: #EE5E5E;
+        border-radius: 15px;
+        position: absolute;
+        top: 200px; 
+        left: 25px; 
+        }
+        .ad_right_rectangle {
+        display: flex;
+        min-height: 300px;
+        min-width: 100px;
+        height: 500px;
+        width: 200px;
+        background-color: #EE5E5E;
+        border-radius: 15px;
+        position: absolute;
+        top: 200px; 
+        right: 25px; 
+        }
+
+    </style>
 </head>
 
 <body>
-    <p>testing vscode yay</p>
+    <header>
+        <div class="logo_rectangle">
+            <h2 style="text-align: center; color: white; margin: auto; padding-top: 40px;">WRK.IT</h2>
+        </div>
+
+        <div class = 'page_title'><h1>Create Job Listing</h1></div>
+        
+
+        <div class="premium_rectangle">
+            <h2 style="text-align: center; color: white; top: 50%;">UPGRADE</h2>
+        </div>
+
+        <div class = "profile_circle">
+            <h3 style="text-align: center; color: black; padding-top: 60px;">[Username]</h3>
+        </div>
+        
+        <br><br><br><br><br><br>
+        <hr>
+
+    </header>
+    
+    <div class="background_form_rectangle">
+        <div style="margin: auto;">
+            <form target="_blank">
+                <input type="text" id="job_title" name="job_title" placeholder="Job Title:" required> 
+                <input type="text" id="internship_or_job" name="internship_or_job" placeholder="Internship or Job?" required>
+                <input type="text" id="avaliability" name="avaliability" placeholder="Avaliability:" required> 
+                <br><br>
+
+                <input type="text" id="listing_title" name="listing_title" placeholder="Listing Title:" size = "72" required> 
+                <br><br>
+
+                <input type="text" id="experience" name="experience" placeholder="Required Experience:" size = "72" required> 
+                <br><br>
+
+                <input type="text" id="payment_type" name="payment_type" placeholder="Payment Type:" size = "46" required> 
+                <input type="text" id="payment_amount" name="payment_amount" placeholder="Payment Amount:" required>
+                <br><br>
+
+                <input type="text" id="sector" name="sector" placeholder="Listing Sector:" size = "72" required> 
+                <br><br>
+
+                <input type="text" id="description" name="description" placeholder="Listing Description:" size = "72" required> 
+                <br><br>
+
+                <input type="text" id="tags" name="tags" placeholder="Listing Tags:" size = "72" required> 
+                <br><br>
+
+                <input type="submit" value="Create Listing" padding>
+            </form>
+        </div>
+    </div>
+
+    <div class="ad_left_rectangle">
+        <h2 style="text-align: center; color: white; margin: auto;">Ad Space</h2>
+    </div>
+
+    <div class="ad_right_rectangle">
+        <h2 style="text-align: center; color: white; margin: auto;">Ad Space</h2>
+    </div>
+
+
 </body>
 </html>

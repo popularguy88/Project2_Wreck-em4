@@ -1,0 +1,376 @@
+ .square { 
+    position: relative; 
+    width: 873px; 
+    height: 235px; 
+    } 
+
+.square .group { 
+    position: relative;
+     top: 0px; 
+     left: 0px; 
+     width: 873px; 
+     height: 235px; 
+    } 
+.square .rectangle { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 900px; 
+    height: 260px; 
+    background-color: #9fb86c; 
+    border-radius: 10px; 
+    } 
+    
+.square .profile-info { 
+        position: absolute; 
+        top: 21px; 
+        left: 242px; 
+        width: 649px; 
+        height: 203px; 
+    } 
+
+    .square .div { 
+        position: absolute;
+        top: 106px;
+        left: 0;
+        width: 236px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700;
+        color: #000000;
+        font-size: 17px;
+        letter-spacing: 0;
+        line-height: normal;
+}
+.square .p { 
+        position: absolute; 
+            top: 29px;
+            left: 0;
+            width: 224px;
+            font-family: "Inter-Regular", Helvetica;
+            font-weight: 400;
+            color: #ffffff;
+            font-size: 11px;
+            letter-spacing: 0;
+            line-height: normal;
+ }
+.square .text-wrapper { 
+        position: absolute;
+            top: 0;
+            left: 0;
+            width: 150px;
+            font-family: "Inter-Bold", Helvetica;
+            font-weight: 700; 
+            color: #000000; 
+            font-size: 24px; 
+            letter-spacing: 0; 
+            line-height: normal; 
+            white-space: nowrap; 
+        }
+
+
+.square .text-wrapper-2 {
+    position: absolute;
+    top: 126px;
+    left: 1px;
+    width: 224px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.square .text-wrapper-3 {
+    position: absolute;
+    top: 40px;
+    left: 247px;
+    width: 224px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+
+.square .text-wrapper-4 {
+    font-family: "Inter-Regular", Helvetica;
+    color: #000000;
+}
+
+.square .text-wrapper-5 {
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.square .text-wrapper-6 {
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.square .contact-gmail {
+    position: absolute;
+    top: 178px;
+    left: 0;
+    width: 236px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.square .span {
+    font-weight: 700;
+    color: #000000;
+}
+
+.square .current-employment {
+    position: absolute;
+    top: 0px;
+    left: 247px;
+    width: 384px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+
+.square .connections {
+    position: absolute;
+    top: 106px;
+    left: 247px;
+    width: 224px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.square .followers {
+    position: absolute;
+    top: 178px;
+    left: 247px;
+    width: 224px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.square .profileicon {
+    position: absolute;
+    top: 46px;
+    left: 36px;
+    width: 166px;
+    height: 166px;
+    display: flex;
+    background-image: url(./img/profile-picture.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.square .status {
+    margin-top: 128px;
+    width: 30px;
+    height: 30px;
+    margin-left: 128px;
+    background-color: #71d967;
+    border-radius: 15px;
+}
+
+.square .meunbar1 {
+    position: absolute;
+    top: 14px;
+    left: 13px;
+    width: 47px;
+    height: 36px;
+}
+
+.square .menubar2 { 
+        top: -20px; 
+        position: absolute; 
+        left: 20px; 
+        width: 8px; 
+        height: 47px; 
+        background-color: #ffffff; 
+        border-radius: 890px; 
+        transform: rotate(-90deg); 
+        opacity: 0.5; 
+    } 
+
+
+.square .menubar3 { 
+        top: -6px; 
+        position: absolute; 
+        left: 20px; 
+        width: 8px; 
+        height: 47px; 
+        background-color: #ffffff; 
+        border-radius: 890px;
+         transform: rotate(-90deg); 
+         opacity: 0.5; }
+
+
+.square .menubar4 { 
+        top: 8px; 
+        position: absolute; 
+        left: 20px; 
+        width: 8px; 
+        height: 47px; 
+        background-color: #ffffff; 
+        border-radius: 890px; 
+        transform: rotate(-90deg); 
+        opacity: 0.5; 
+    }
+
+.square .jobrecommendation {
+    top: 3px;
+    position: absolute;
+    left: 0px;
+    width: 400px;
+    height: 275px;
+    background-color: #9fb86c;
+    border-radius: 10px;
+
+
+}
+
+.square .jobrecommendation2 {
+    top: 290px;
+    position: absolute;
+    left: 0px;
+    width: 400px;
+    height: 275px;
+    background-color: #9fb86c;
+    border-radius: 10px;
+
+
+}
+
+.square .jobrecommendation3 {
+    top: 575px;
+    position: absolute;
+    left: 0px;
+    width: 400px;
+    height: 275px;
+    background-color: #9fb86c;
+    border-radius: 10px;
+
+
+}
+
+.square .jobrecommendation4 {
+    top: 860px;
+    position: absolute;
+    left: 0px;
+    width: 400px;
+    height: 275px;
+    background-color: #9fb86c;
+    border-radius: 10px;
+
+
+}
+
+.square .scroll-bar {
+    top: 0px;
+    left: 1500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    width: 400px; 
+    height: 1075px; 
+    padding: 10px;
+   
+
+
+}
+
+
+
+
+.square .aboutme { 
+        position: absolute;
+        top: 240px;
+        left: -240px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #000000; 
+        font-size: 24px; 
+        letter-spacing: 0; 
+        line-height: normal; 
+        white-space: nowrap; 
+}
+
+.square .aboutmesection { 
+        position: absolute;
+        top: 280px;
+        left: -240px;
+        width: 900px;
+        height: 300px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #000000; 
+        font-size: 24px; 
+        letter-spacing: 0; 
+        line-height: normal; 
+        overflow-wrap: break-word;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        border-radius: 10px;
+}
+
+.square .experience{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    background-color: #9fb86c;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+
+
+}
+
+.square .scroll-bar2 {
+    top: 800px;
+    left: 100x;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    position: absolute;
+    width: 900px; 
+    height: 300px; 
+    padding: 10px;
+    border: #000000;
+    
+
+}
+
+.square .resume{
+    position: absolute;
+    top: 600px;
+    left: -240px;
+    background-color: #9fb86c;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+
+
+}
+
