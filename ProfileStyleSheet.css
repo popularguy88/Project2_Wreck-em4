@@ -342,7 +342,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: #9fb86c;
+    background-color: #7c9054;
     width: 300px;
     height: 300px;
     border-radius: 10px;
@@ -384,7 +384,7 @@
     left: -165px;
    font-family: "Inter-ExtraBold", Helvetica;
     font-weight: 800;
-    color: #ffffff;
+    color: #EE5E5E;
     font-size: 21px; 
 
 
@@ -681,7 +681,7 @@
 
 .square .search { 
         position: absolute;
-        top: 100px;
+        top: 120px;
         left: 1745px;
         width: 150px;
         font-family: "Inter-Bold", Helvetica;
@@ -798,7 +798,7 @@
         width: 150px;
         font-family: "Inter-Bold", Helvetica;
         font-weight: 700; 
-        color: #ffffff; 
+        color: #000000; 
         font-size: 24px; 
         letter-spacing: 0; 
         line-height: normal; 
@@ -813,7 +813,7 @@
         width: 150px;
         font-family: "Inter-Bold", Helvetica;
         font-weight: 700; 
-        color: #ffffff; 
+        color: #000000; 
         font-size: 24px; 
         letter-spacing: 0; 
         line-height: normal; 
@@ -827,7 +827,7 @@
         width: 150px;
         font-family: "Inter-Bold", Helvetica;
         font-weight: 700; 
-        color: #ffffff; 
+        color: #000000; 
         font-size: 24px; 
         letter-spacing: 0; 
         line-height: normal; 
@@ -841,7 +841,7 @@
         width: 150px;
         font-family: "Inter-Bold", Helvetica;
         font-weight: 700; 
-        color: #ffffff; 
+        color: #000000; 
         font-size: 24px; 
         letter-spacing: 0; 
         line-height: normal; 
@@ -857,7 +857,7 @@
         font-family: "Inter-Bold", Helvetica;
         font-weight: 700; 
         color: #ffffff; 
-        font-size: 16px; 
+        font-size: 11px; 
         letter-spacing: 0; 
         line-height: normal; 
         white-space: nowrap; 
@@ -872,7 +872,7 @@
         font-family: "Inter-Bold", Helvetica;
         font-weight: 700; 
         color: #ffffff; 
-        font-size: 16px; 
+        font-size: 11px; 
         letter-spacing: 0; 
         line-height: normal; 
         white-space: nowrap; 
@@ -887,7 +887,7 @@
         font-family: "Inter-Bold", Helvetica;
         font-weight: 700; 
         color: #ffffff; 
-        font-size: 16px; 
+        font-size: 15px; 
         letter-spacing: 0; 
         line-height: normal; 
         white-space: nowrap; 
@@ -902,9 +902,145 @@
         font-family: "Inter-Bold", Helvetica;
         font-weight: 700; 
         color: #ffffff; 
+        font-size: 12px; 
+        letter-spacing: 0; 
+        line-height: normal; 
+        white-space: nowrap; 
+}
+
+
+
+.square .applepay { 
+        position: absolute;
+        top: 170px;
+        left: 220px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #ffffff; 
         font-size: 16px; 
         letter-spacing: 0; 
         line-height: normal; 
         white-space: nowrap; 
+}
+
+
+.square .nvidiapay { 
+        position: absolute;
+        top: 445px;
+        left: 220px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #ffffff; 
+        font-size: 16px; 
+        letter-spacing: 0; 
+        line-height: normal; 
+        white-space: nowrap; 
+}
+
+
+.square .googlepay { 
+        position: absolute;
+        top: 730px;
+        left: 220px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #ffffff; 
+        font-size: 16px; 
+        letter-spacing: 0; 
+        line-height: normal; 
+        white-space: nowrap; 
+}
+
+
+.square .metapay { 
+        position: absolute;
+        top: 1015px;
+        left: 220px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #ffffff; 
+        font-size: 16px; 
+        letter-spacing: 0; 
+        line-height: normal; 
+        white-space: nowrap; 
+}
+
+
+
+.square .seemore1 { 
+        position: absolute;
+        top: 1080px;
+        left: 600px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #0011ff; 
+        font-size: 20px; 
+        letter-spacing: 0; 
+        line-height: normal; 
+        white-space: nowrap; 
+}
+
+
+.square .seemore2 { 
+        position: absolute;
+        top: 225px;
+        left: 600px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #0011ff; 
+        font-size: 20px; 
+        letter-spacing: 0; 
+        line-height: normal; 
+        white-space: nowrap; 
+}
+
+
+.square .seemore3 { 
+        position: absolute;
+        top: 795px;
+        left: 600px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #0011ff; 
+        font-size: 20px; 
+        letter-spacing: 0; 
+        line-height: normal; 
+        white-space: nowrap; 
+}
+
+
+.square .seemore4 { 
+        position: absolute;
+        top: 510px;
+        left: 600px;
+        width: 150px;
+        font-family: "Inter-Bold", Helvetica;
+        font-weight: 700; 
+        color: #0011ff; 
+        font-size: 20px; 
+        letter-spacing: 0; 
+        line-height: normal; 
+        white-space: nowrap; 
+}
+
+
+.square .reddesign{
+    position: absolute;
+    top: 0px;
+    left: 1695px;
+    background-color:#7c9054;
+    width: 175px;
+    height: 1050px;
+    border-radius: 10px;
+   
+
+
 }
 
