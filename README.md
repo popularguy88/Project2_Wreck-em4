@@ -43,7 +43,7 @@ skill sets and job interests.​
 - Worked on Listing.html
 - Worked on search.html
 ### Ram
-- Worked on home.html
+- Worked on index.html
 ### Steven
 - Created ProfileStyleSheet
 - Worked on and created Profile.html
