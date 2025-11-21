@@ -26,7 +26,7 @@ recommendation list, which is set up to match the users'
 skill sets and job interests.​
 
 ## Pages Implemented
-1. Home Page (home.html)
+1. Home Page (index.html)
 2. Job Search Page (search.html)
 3. Profile Page (profile.html)
 4. Job Listing Page (listing.html)
